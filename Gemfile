@@ -21,6 +21,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
+# DATABASE POPULATE
+gem "populator", "~> 1.0.0"
+gem 'faker'
+gem "random_data", "~> 1.6.0"
+
+gem "export_csv"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

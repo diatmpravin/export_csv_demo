@@ -1,0 +1,35 @@
+<h1>Listing addresses</h1>
+
+<h2><%= link_to 'Export csv', export_csv_addresses_path %></h2>
+
+<table>
+  <tr>
+    <th>Fname</th>
+    <th>Address1</th>
+    <th>Address2</th>
+    <th>Zip</th>
+    <th>State code</th>
+    <th>State</th>
+    <th>Country</th>
+    <th>City</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @addresses.each do |address| %>
+  <tr>
+    <td><%= address.fname %></td>
+    <td><%= address.address1 %></td>
+    <td><%= address.address2 %></td>
+    <td><%= address.zip %></td>
+    <td><%= address.state_code %></td>
+    <td><%= address.state %></td>
+    <td><%= address.country %></td>
+    <td><%= address.city %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+

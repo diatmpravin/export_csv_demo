@@ -40,6 +40,9 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    export_csv (0.0.1.alpha)
+    faker (1.1.2)
+      i18n (~> 0.5)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -55,6 +58,7 @@ GEM
     multi_json (1.5.0)
     mysql2 (0.3.11)
     polyglot (0.3.3)
+    populator (1.0.0)
     rack (1.4.4)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -78,6 +82,7 @@ GEM
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (10.0.3)
+    random_data (1.6.0)
     rdoc (3.12)
       json (~> 1.4)
     sass (3.2.5)
@@ -105,8 +110,12 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  export_csv
+  faker
   jquery-rails
   mysql2
+  populator (~> 1.0.0)
   rails (= 3.2.11)
+  random_data (~> 1.6.0)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
