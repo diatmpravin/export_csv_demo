@@ -12,4 +12,6 @@ Run this app.
 
 5. rake db:user
 
+6. rails s
+
 Enjoy..!!!
